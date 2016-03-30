@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="foreground_color">#FFFFFF</color>
+    <color name="favorite_btn_background_color">#FFFF00</color>
+    <color name="delete_btn_background_color">#B22222</color>
+    <color name="restore_btn_background">#228B22</color>
+</resources>

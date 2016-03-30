@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/contact_image"
+        android:visibility="gone"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:id="@+id/contact_name_letter"
+        android:paddingLeft="12dp"
+        android:layout_margin="10dp"
+        android:textSize="95sp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_row_name_textView"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/contact_name"
+        android:layout_marginLeft="130dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_row_number_textView"
+        android:textSize="18sp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/contact_number"
+        android:layout_marginLeft="130dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="130dp"
+       android:padding="6dp"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+        >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts_favourite_list_btn"
+        android:text="@string/custom_row_favorite_btn"
+        android:focusable="false"
+        android:visibility="gone"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/favorite_btn_background_color"
+        />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contacts_delete_list_btn"
+            android:text="@string/custom_row_delete_btn"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            android:textColor="@color/foreground_color"
+            android:background="@color/delete_btn_background_color"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contacts_restore_list_btn"
+            android:text="@string/restore_btn_text"
+            android:focusable="false"
+            android:visibility="gone"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="20dp"
+
+            android:textColor="@color/foreground_color"
+            android:background="@color/restore_btn_background"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
